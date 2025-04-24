@@ -1,0 +1,13 @@
+train: E:\\pandownload1\\ML\\Cap\\datasets\\pipe\\train\\images
+val: E:\\pandownload1\\ML\\Cap\\datasets\\pipe\\valid\\images
+test: E:\\pandownload1\\ML\\Cap\\datasets\\pipe\\test\\images
+
+nc: 1
+names: ['pipe']
+
+roboflow:
+  workspace: nanoka
+  project: pipe-jdlje
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nanoka/pipe-jdlje/dataset/3
