@@ -19,6 +19,17 @@ wget https://github.com/kingbri1/flash-attention/releases/download/v2.7.4.post1/
 
 ### 训练模型
 
+先下载你要使用的模型文件
+
+```
+wget https://github.com/sunsmarterjie/yolov12/releases/download/turbo/yolov12s.pt
+```
+
+```python
+# 修改这一部分到 train.py
+model_path = os.path.abspath('yolov12s.pt')
+```
+
 去 RoboFlow 上训练自己的模型, 然后导出成 YOLOv12 的格式
 
 ```python
@@ -27,6 +38,10 @@ FOLDER_PATH = "oil"
 ```
 
 之后就可以直接运行 train.py 了
+
+```
+python train.py
+```
 
 ### 使用方法
 
