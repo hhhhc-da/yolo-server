@@ -4,14 +4,14 @@
 ### 安装方法
 首先我们安装好 CUDA 版本的 PyTorch 和对应版本的 TorchVision
 
-```
+```sh
 pip3 install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cu121
 pip install -r requirements.txt
 ```
 
 之后我们大概率会遇到 flash_attr 安装不上的情况, 我们可以下载之后本地安装
 
-```
+```shell
 wget https://github.com/kingbri1/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu124torch2.6.0cxx11abiFALSE-cp312-cp312-win_amd64.whl
 ```
 
