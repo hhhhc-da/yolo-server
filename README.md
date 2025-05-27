@@ -32,6 +32,11 @@ FOLDER_PATH = "oil"
 
 前后端分离的, 主要考虑到树莓派 4B 运行 YOLO 不太行, 所以计算任务交给服务器了
 
+```python
+# 运行前记得把模型文件改了
+model_path = os.path.join(os.path.abspath(os.path.join('models', 'nanoka_model.pt')))
+```
+
 ```
 # 开启后端 HTTP 服务, 主要用于运行 YOLOv12, 降低边缘服务器压力 
 python app.py
