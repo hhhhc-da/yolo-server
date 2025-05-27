@@ -5,7 +5,7 @@
 首先我们安装好 CUDA 版本的 PyTorch 和对应版本的 TorchVision
 
 ```
-pip3 install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cu121
+pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cu121
 pip install -r requirements.txt
 ```
 
